@@ -1,0 +1,28 @@
+# STM32CubeIDE generated build output
+Debug/
+Release/
+Application/Debug/
+Application/Release/
+
+# Eclipse workspace and local settings
+.metadata/
+.settings/
+Application/.settings/
+
+# Python cache and local test binaries
+Tools/__pycache__/
+*.pyc
+Tools/*.exe
+Core/Inc/auth_key_local.h
+Tools/auth_key_local.py
+
+# User-specific launch and IDE state
+*.launch
+Application/*.launch
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
