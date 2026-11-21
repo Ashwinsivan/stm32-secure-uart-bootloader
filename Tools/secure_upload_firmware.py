@@ -30,7 +30,8 @@ STATE_VALID = 2
 CHUNK_SIZE = 26
 MAX_PAYLOAD = 32
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_FIRMWARE = (REPOSITORY_ROOT / "Application" / "Debug" /
+APPLICATION_ROOT = REPOSITORY_ROOT.parent / "STM32F103_Bootloader_Application"
+DEFAULT_FIRMWARE = (APPLICATION_ROOT / "Debug" /
                     "STM32F103_Bootloader_Application.bin")
 
 

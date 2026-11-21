@@ -3,6 +3,7 @@ import sys
 import time
 
 import serial
+from secure_upload_firmware import authenticate
 
 
 PORT = "COM7"
@@ -73,6 +74,8 @@ def main():
         invalid_crc = bytearray(valid)
         invalid_crc[-1] ^= 0xFF
         send_and_check(ser, invalid_crc, NACK_CRC, "Invalid CRC")
+
+        authenticate(ser)
 
         invalid_address = make_packet(
             CMD_WRITE_DATA, struct.pack("<I", 0x08000000) + b"\xAA"

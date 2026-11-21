@@ -10,6 +10,9 @@ A custom UART bootloader for the STM32F103C8T6 Blue Pill. Firmware updates are t
 ├── Drivers/              # STM32 HAL and CMSIS sources
 ├── Tools/                # Host uploaders and protocol tests
 ├── Application/          # Separate LED demonstration firmware project
+├── docs/                 # Test report and sanitized hardware evidence
+│   ├── TEST_RESULTS_2026-11-21.md
+│   └── evidence/
 ├── STM32F103C8TX_FLASH.ld
 ├── SECURE_UPDATE_DESIGN.md
 └── SECURE_TEST_PROCEDURE.md
