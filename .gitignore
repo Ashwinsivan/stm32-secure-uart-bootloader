@@ -26,3 +26,8 @@ Application/*.launch
 *.swp
 Thumbs.db
 Desktop.ini
+
+# Local resume and generated evidence/render artifacts
+/Ashwin_Resume.tex
+/Updated_Ashwin_Resume.pdf
+/tmp/

@@ -80,6 +80,7 @@ Use `--status-only` to inspect metadata without modifying application Flash.
 - Persistence after power removal and reset
 
 Detailed procedures are in [`SECURE_TEST_PROCEDURE.md`](SECURE_TEST_PROCEDURE.md). The design rationale is in [`SECURE_UPDATE_DESIGN.md`](SECURE_UPDATE_DESIGN.md).
+The latest sanitized hardware evidence is in [`docs/TEST_RESULTS_2026-11-21.md`](docs/TEST_RESULTS_2026-11-21.md).
 
 ## Security note
 
